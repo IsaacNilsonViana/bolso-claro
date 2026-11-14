@@ -16,6 +16,12 @@ App Android de finanças pessoais, feito em Flutter para uso offline e sem conta
 
 A categoria pode ser sugerida pela descrição. Ao anexar um boleto, comprovante ou ticket, o app usa reconhecimento de texto no próprio dispositivo e apresenta os dados identificados para conferência antes de aplicá-los. A leitura de PDFs considera até cinco páginas. O resultado depende da qualidade do arquivo e pode exigir correção manual.
 
+## Instalar no Android
+
+[Baixar o APK mais recente](https://github.com/IsaacNilsonViana/bolso-claro/releases/latest/download/bolso-claro-v1.0.0.apk)
+
+Baixe o arquivo no celular e abra-o para instalar. Se o Android solicitar, autorize a instalação de apps desta origem. Os registros ficam apenas no dispositivo; antes de desinstalar o aplicativo, considere que ainda não há exportação ou restauração de backup.
+
 ## Desenvolvimento
 
 ```sh
