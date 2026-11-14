@@ -10,10 +10,11 @@ App Android de finanças pessoais, feito em Flutter para uso offline e sem conta
 - Pagamento individual por ocorrência, edição e exclusão.
 - Calendário de vencimentos.
 - Boleto e comprovante anexados separadamente; cópia guardada no armazenamento privado do app.
+- Leitura de texto de imagens e PDFs anexados para sugerir título, valor, datas e detalhes do documento antes de salvar.
 - Simulação de compras imediatas ou parceladas a partir de um mês futuro, sem alterar os dados.
 - Lembretes locais configuráveis de 0 a 3 dias antes do vencimento.
 
-A identificação automática atual sugere a categoria a partir da descrição e pode sugerir um título pelo nome do arquivo anexado. **O app ainda não extrai dados do conteúdo de boletos por OCR.**
+A categoria pode ser sugerida pela descrição. Ao anexar um boleto, comprovante ou ticket, o app usa reconhecimento de texto no próprio dispositivo e apresenta os dados identificados para conferência antes de aplicá-los. A leitura de PDFs considera até cinco páginas. O resultado depende da qualidade do arquivo e pode exigir correção manual.
 
 ## Desenvolvimento
 
